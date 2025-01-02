@@ -446,7 +446,7 @@ const SideBar = () => {
                         fill={
                           location.pathname.startsWith("/api-key-setting")
                             ? "#FFF"
-                            : "#FF5C01"
+                            : "#01c7cc"
                         }
                       />
                     </g>
@@ -584,7 +584,7 @@ const SideBar = () => {
             <p style={{ color: '#FFF', fontWeight: 600 }}>Find us on</p>
             <div style={{ display: 'flex', alignItems: 'center', gap: 5 }}>
               <li>
-                <a href="https://twitter.com/HeavenW_AI" target="_blank" rel="noreferrer">
+                <a href="https://twitter.com/Gryphon_AI" target="_blank" rel="noreferrer">
                   <img src={iconX} alt="x" />
                 </a>
               </li>
@@ -595,7 +595,7 @@ const SideBar = () => {
                 </a>
               </li>
               <li>
-                <a href="https://t.me/HeavenW_AI" target="_blank" rel="noreferrer">
+                <a href="https://t.me/Gryphon_AI" target="_blank" rel="noreferrer">
                   <img src={iconTele} alt="telegram" />
                 </a>
               </li>

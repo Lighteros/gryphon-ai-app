@@ -49,7 +49,7 @@ const ModalHistoryTrain = ({ isOpenHistory, setIsOpenHistory }) => {
                     alt="404"
                     style={{ paddingBottom: 10 }}
                   />
-                  <p className="text-[#FF4C13] text-3xl">
+                  <p className="text-[#0051dd] text-3xl">
                     You haven't created any models yet.
                   </p>
                 </div>
@@ -101,7 +101,7 @@ const HistoryItem = ({ key, item }) => {
             {item?.request_key}
           </span>
           <div className="flex items-center md:ml-4">
-            <p className="text-xl md:text-2xl text-[#ff4c13]">{item?.status}</p>
+            <p className="text-xl md:text-2xl text-[#0051dd]">{item?.status}</p>
             <svg
               xmlns="http://www.w3.org/2000/svg"
               width="16"
@@ -111,7 +111,7 @@ const HistoryItem = ({ key, item }) => {
             >
               <path
                 d="M6 3L11 8L6 13"
-                stroke="#ff4c13"
+                stroke="#0051dd"
                 strokeWidth="1.7"
                 strokeLinejoin="round"
               ></path>
@@ -122,9 +122,9 @@ const HistoryItem = ({ key, item }) => {
           <div
             className={`h-2 rounded-full ${
               progress === 100
-                ? "bg-[#ff4c13] w-full"
+                ? "bg-[#0051dd] w-full"
                 : progress > 0
-                ? `bg-[#ff4c13]`
+                ? `bg-[#0051dd]`
                 : ""
             }`}
             style={{

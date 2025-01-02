@@ -74,7 +74,7 @@ const HistotyList = () => {
           ) : null}
           <h5
             style={{
-              color: "#FF9649",
+              color: "#49ff9b",
               textAlign: "left",
               fontSize: 12,
               fontStyle: "italic",
@@ -182,7 +182,7 @@ export const Content = ({ tab, setIds, ids }) => {
                     <span className="loading-content">
                       <LoadingIcon />
                     </span>
-                    <div className="absolute top-0 right-0 inline-flex items-center rounded-md bg-[#FF9649] px-2 py-2 text-sm font-medium text-white ring-1 ring-inset ring-gray-500/10">
+                    <div className="absolute top-0 right-0 inline-flex items-center rounded-md bg-[#49ff9b] px-2 py-2 text-sm font-medium text-white ring-1 ring-inset ring-gray-500/10">
                       Processing
                     </div>
                   </>
@@ -221,7 +221,7 @@ export const Content = ({ tab, setIds, ids }) => {
                     <span
                       className="check"
                       style={{
-                        borderColor: "#ff5c01",
+                        borderColor: "#01c7cc",
                         width: "2.4rem",
                         height: "2.4rem",
                       }}
@@ -241,7 +241,7 @@ export const Content = ({ tab, setIds, ids }) => {
               style={{ paddingBottom: 10 }}
             />
             <h2
-              className="text-[#FF4C13] text-3xl"
+              className="text-[#0051dd] text-3xl"
               style={{ paddingBottom: 10 }}
             >
               {" "}

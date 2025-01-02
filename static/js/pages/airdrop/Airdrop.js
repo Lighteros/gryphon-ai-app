@@ -74,10 +74,10 @@ const Airdrop = () => {
                   alignItems: "center",
                 }}
               >
-                <div className="ttl " style={{ color: "#FF4C13" }}>
+                <div className="ttl " style={{ color: "#0051dd" }}>
                   HVN
                 </div>
-                <h3 className="number" style={{ color: "#FF4C13" }}>
+                <h3 className="number" style={{ color: "#0051dd" }}>
                   ???
                 </h3>
               </div>
@@ -91,10 +91,10 @@ const Airdrop = () => {
                   alignItems: "center",
                 }}
               >
-                <div className="ttl " style={{ color: "#FF4C13" }}>
+                <div className="ttl " style={{ color: "#0051dd" }}>
                   Your HVN token
                 </div>
-                <h3 className="number" style={{ color: "#FF4C13" }}>
+                <h3 className="number" style={{ color: "#0051dd" }}>
                   {user?.aiw_token}
                 </h3>
               </div>

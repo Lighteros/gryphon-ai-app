@@ -575,7 +575,7 @@ const NavBar = ({ style, isEdit = true }) => {
                                       "/api-key-setting"
                                     )
                                       ? "#FFF"
-                                      : "#FF5C01"
+                                      : "#01c7cc"
                                   }
                                 />
                               </g>
@@ -716,7 +716,7 @@ const NavBar = ({ style, isEdit = true }) => {
                         >
                           <li>
                             <a
-                              href="https://twitter.com/HeavenW_AI"
+                              href="https://twitter.com/Gryphon_AI"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -725,7 +725,7 @@ const NavBar = ({ style, isEdit = true }) => {
                           </li>
                           <li>
                             <a
-                              href="https://t.me/HeavenW_AI"
+                              href="https://t.me/Gryphon_AI"
                               target="_blank"
                               rel="noreferrer"
                             >
@@ -773,7 +773,7 @@ const NavBar = ({ style, isEdit = true }) => {
                           style={{
                             fontSize: 15,
                             fontWeight: 600,
-                            color: "#FF4C13",
+                            color: "#0051dd",
                           }}
                         >
                           {user?.bonus_balance}
@@ -797,7 +797,7 @@ const NavBar = ({ style, isEdit = true }) => {
                             style={{
                               fontSize: 15,
                               fontWeight: 600,
-                              color: "#FF4C13",
+                              color: "#0051dd",
                             }}
                           >
                             {user?.credit_balance ? (
@@ -827,7 +827,7 @@ const NavBar = ({ style, isEdit = true }) => {
                           style={{
                             fontSize: 15,
                             fontWeight: 600,
-                            color: "#FF4C13",
+                            color: "#0051dd",
                           }}
                         >
                           {user?.point_balance ? (
@@ -880,7 +880,7 @@ const NavBar = ({ style, isEdit = true }) => {
                           <div className="header-profile__box">
                             <ul className="header-profile__list flex flex-col gap-3">
                               <Link
-                                className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#ff4c13] after:transition-all after:duration-300 hover:after:w-full hover:text-[#ff4c13] transition-colors duration-300"
+                                className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0051dd] after:transition-all after:duration-300 hover:after:w-full hover:text-[#0051dd] transition-colors duration-300"
                                 to="/setting-full"
                                 onClick={() => {
                                   setState((e) => ({
@@ -896,7 +896,7 @@ const NavBar = ({ style, isEdit = true }) => {
                                 Your profile
                               </Link>
                               <Link
-                                className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#ff4c13] after:transition-all after:duration-300 hover:after:w-full hover:text-[#ff4c13] transition-colors duration-300"
+                                className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0051dd] after:transition-all after:duration-300 hover:after:w-full hover:text-[#0051dd] transition-colors duration-300"
                                 to="/history/all"
                                 onClick={() => {
                                   setState((e) => ({
@@ -912,7 +912,7 @@ const NavBar = ({ style, isEdit = true }) => {
                                 Your library
                               </Link>
                               <Link
-                                className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#ff4c13] after:transition-all after:duration-300 hover:after:w-full hover:text-[#ff4c13] transition-colors duration-300"
+                                className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0051dd] after:transition-all after:duration-300 hover:after:w-full hover:text-[#0051dd] transition-colors duration-300"
                                 to="/setting-full"
                                 onClick={() => {
                                   setState((e) => ({
@@ -929,7 +929,7 @@ const NavBar = ({ style, isEdit = true }) => {
                               </Link>
                               {config.IS_MINIAPP ? null : (
                                 <Link
-                                  className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#ff4c13] after:transition-all after:duration-300 hover:after:w-full hover:text-[#ff4c13] transition-colors duration-300"
+                                  className="relative border-b border-transparent pb-1 after:absolute after:bottom-0 after:left-0 after:w-0 after:h-[2px] after:bg-[#0051dd] after:transition-all after:duration-300 hover:after:w-full hover:text-[#0051dd] transition-colors duration-300"
                                   to="#"
                                   onClick={handleLogout}
                                 >

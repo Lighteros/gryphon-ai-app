@@ -486,7 +486,7 @@ const Pretrain = () => {
                           type="empty"
                           className=""
                         >
-                          <p className="text-xxl text-[#FF4C13] font-semibold cursor-pointer underline">
+                          <p className="text-xxl text-[#0051dd] font-semibold cursor-pointer underline">
                             Upload images
                           </p>
                         </FileDropInput>
@@ -505,7 +505,7 @@ const Pretrain = () => {
                         type="empty"
                         className=""
                       >
-                        <p className="text-xxl text-[#FF4C13] font-semibold cursor-pointer underline">
+                        <p className="text-xxl text-[#0051dd] font-semibold cursor-pointer underline">
                           Add an existing dataset
                         </p>
                       </FileDropInput>

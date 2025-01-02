@@ -5,7 +5,7 @@ import { APP_ROUTE } from "../routes/link";
 import { useModal } from "../context/modalContext";
 const style = {
   buttonNext: {
-    background: "linear-gradient(87deg, #ff5c00 4.51%, #ffa800 95.73%)",
+    background: "linear-gradient(87deg, #01c7cc 4.51%, #ffa800 95.73%)",
     fontWeight: 700,
   },
   buttonBack: {

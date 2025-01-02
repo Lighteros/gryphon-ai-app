@@ -67,7 +67,7 @@ const ContactUs = () => {
               </a>
               <div className="setting-social">
                 <a
-                  href="https://twitter.com/HeavenW_AI"
+                  href="https://twitter.com/Gryphon_AI"
                   className="setting-social__item"
                   target="_blank"
                   rel="noreferrer"
@@ -79,7 +79,7 @@ const ContactUs = () => {
                   <span className="ttl">X (Twitter): Heaven World AI</span>
                 </a>
                 <a
-                  href="https://t.me/HeavenW_AI"
+                  href="https://t.me/Gryphon_AI"
                   className="setting-social__item"
                   target="_blank"
                   rel="noreferrer"

@@ -9,13 +9,13 @@ const ResultTrain = () => {
             <div className="flex items-center space-x-2 gap-4">
               <p className="text-3xl font-bold">Preparing training GPU</p>
               <p className="text-[#9C9C9C] font-bold text-2xl">
-                Position <span className="text-[#FF4C13] text-3xl">1</span> /
+                Position <span className="text-[#0051dd] text-3xl">1</span> /
                 All 1
               </p>
             </div>
             <div className="flex-grow gap-4 mx-4">
               <div className="relative w-full h-6 bg-gray-800 rounded-full">
-                <div className="absolute top-0 left-0 h-6 bg-[#FF4C13] rounded-full w-full"></div>
+                <div className="absolute top-0 left-0 h-6 bg-[#0051dd] rounded-full w-full"></div>
               </div>
             </div>
             <div className="flex items-center gap-4">
@@ -41,13 +41,13 @@ const ResultTrain = () => {
             <div className="container mx-auto p-6 rounded-lg  bg-[#1D1F23] w-full md:w-[70%]">
               <div className="flex justify-between items-center mb-6">
                 <h1 className="text-2xl font-bold">
-                  LoRA <span className="text-[#FF4C13]">5 / 5</span>
+                  LoRA <span className="text-[#0051dd]">5 / 5</span>
                 </h1>
                 <div className="flex items-center gap-6 text-[#BEBEBE] font-bold">
                   <span className="border-r-[1px] pr-6">Parameters</span>
 
                   <span>Log View</span>
-                  <Switch className="group relative flex h-10 w-16 cursor-pointer rounded-full bg-white/10 p-1 transition-colors duration-200 ease-in-out focus:outline-none data-[focus]:outline-1 data-[focus]:outline-white data-[checked]:bg-[#FF4C13]">
+                  <Switch className="group relative flex h-10 w-16 cursor-pointer rounded-full bg-white/10 p-1 transition-colors duration-200 ease-in-out focus:outline-none data-[focus]:outline-1 data-[focus]:outline-white data-[checked]:bg-[#0051dd]">
                     <span
                       aria-hidden="true"
                       className="pointer-events-none inline-block size-8 translate-x-0 rounded-full bg-white ring-0 shadow-lg transition duration-200 ease-in-out group-data-[checked]:translate-x-6"
@@ -76,7 +76,7 @@ const ResultTrain = () => {
                     <span
                       className="check"
                       style={{
-                        borderColor: "#ff5c01",
+                        borderColor: "#01c7cc",
                         width: "2.4rem",
                         height: "2.4rem",
                       }}
@@ -128,7 +128,7 @@ const ResultTrain = () => {
                   </label>
                   <p className="text-[#808080]">
                     {" "}
-                    Selected <span className="text-[#FF4C13]">0</span>
+                    Selected <span className="text-[#0051dd]">0</span>
                   </p>
                 </div>
                 <div className="flex flex-1 flex-wrap gap-2 w-full ">

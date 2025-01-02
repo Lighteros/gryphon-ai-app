@@ -295,7 +295,7 @@ const Flux = () => {
               <a style={{ paddingTop: 2 }}>Advanced setting </a>
               <IoMdArrowDropdown
                 size={26}
-                color="#FF4C13"
+                color="#0051dd"
                 style={{
                   transform: openNegativePrompt ? "rotate(180deg)" : "",
                   paddingTop: 3,

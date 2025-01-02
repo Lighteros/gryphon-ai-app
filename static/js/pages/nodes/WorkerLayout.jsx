@@ -92,14 +92,14 @@ const WorkerLayout = () => {
             <div className="footer-node-row__item --right">
               <div className="footer-node-social">
                 <a
-                  href="https://x.com/HeavenW_AI"
+                  href="https://x.com/Gryphon_AI"
                   target="_blank"
                   className="footer-node-social__item"
                 >
                   <FaXTwitter size={26} />
                 </a>
                 <a
-                  href="https://t.me/HeavenW_AI"
+                  href="https://t.me/Gryphon_AI"
                   target="_blank"
                   className="footer-node-social__item"
                 >

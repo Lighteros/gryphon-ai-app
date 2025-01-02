@@ -124,7 +124,7 @@ export const TaskItem = ({ item }) => {
               className="btn-social-top"
               style={{
                 width: 60,
-                backgroundColor: checking ? '#808080' : '#ff5c01',
+                backgroundColor: checking ? '#808080' : '#01c7cc',
                 color: '#FFF',
                 flexShrink: 0
               }}
@@ -137,7 +137,7 @@ export const TaskItem = ({ item }) => {
               className="btn-social-top"
               style={{
                 width: 60,
-                backgroundColor: '#ff5c01',
+                backgroundColor: '#01c7cc',
                 color: '#FFF',
                 flexShrink: 0
               }}
@@ -152,7 +152,7 @@ export const TaskItem = ({ item }) => {
           )}
         </>
       )}
-      {item?.user_progress?.status === 'COMPLETED' && <FaCheck color="#ff5c00" />}
+      {item?.user_progress?.status === 'COMPLETED' && <FaCheck color="#01c7cc" />}
     </div>
   );
 };

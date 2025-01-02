@@ -5,7 +5,7 @@ const CommingSoon = () => {
     <div
       style={{
         width: "60px",
-        background: "#FF5C01",
+        background: "#01c7cc",
         borderRadius: 4,
         marginLeft: 6,
       }}

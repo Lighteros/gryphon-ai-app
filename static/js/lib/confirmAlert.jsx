@@ -10,7 +10,7 @@ const confirmAlert = ({ isPending, onClick, message = 'Are you sure to do this?'
     buttons: [
       {
         label: 'Confirm',
-        className: '!bg-[#ff5c01]',
+        className: '!bg-[#01c7cc]',
         onClick
       },
       {

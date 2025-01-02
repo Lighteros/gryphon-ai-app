@@ -21,11 +21,11 @@ const style = {
     ...baseStyles,
     zIndex: 9999,
     backgroundColor: state.isSelected
-      ? "#ff5c01"
+      ? "#01c7cc"
       : "linear-gradient(to right, #36373b 2%, #171920 100%)",
     color: "white",
     ":hover": {
-      backgroundColor: state.isSelected ? "#ff5c01" : "gray",
+      backgroundColor: state.isSelected ? "#01c7cc" : "gray",
       color: state.isSelected ? "white" : "white",
     },
   }),

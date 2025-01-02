@@ -85,7 +85,7 @@ const ResultOnPage = ({ service_id, onSelect }) => {
           </h3>
           <h5
             style={{
-              color: "#FF9649",
+              color: "#49ff9b",
               textAlign: "center",
               marginBottom: 20,
               fontSize: 12,
@@ -238,7 +238,7 @@ const Item = ({ openModal, record, group }) => {
             <LoadingIcon />
             <span>{seconds.toFixed(1)}</span>
           </span>
-          <div className="absolute top-0 right-0 inline-flex items-center rounded-md bg-[#FF9649] px-2 py-2 text-sm font-medium text-white ring-1 ring-inset ring-gray-500/10">
+          <div className="absolute top-0 right-0 inline-flex items-center rounded-md bg-[#49ff9b] px-2 py-2 text-sm font-medium text-white ring-1 ring-inset ring-gray-500/10">
             Processing
           </div>
         </>

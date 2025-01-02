@@ -177,7 +177,7 @@ const Payment = () => {
                           }));
                         }}
                       >
-                        <p style={{ color: "#ff2f01" }}>
+                        <p style={{ color: "#01c1cc" }}>
                           {item?.usd_value} USD
                         </p>
                         <p className="text-des-credit">

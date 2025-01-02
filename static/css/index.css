@@ -77,6 +77,6 @@
     @apply block w-full rounded-[8px] h-[44px] border-none bg-white/5 py-5 px-3 text-[12px] text-white focus:outline-none data-[focus]:outline-2 data-[focus]:-outline-offset-2 data-[focus]:outline-white/25 sm:h-[36px] sm:py-4 sm:px-2 sm:text-[14px];
   }
   .circle-icon {
-    @apply px-3 py-1 rounded-full bg-[#FF4C13] text-white mr-2;
+    @apply px-3 py-1 rounded-full bg-[#0051dd] text-white mr-2;
   }
 }
