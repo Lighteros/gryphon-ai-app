@@ -1038,23 +1038,11 @@ const NavBar = ({ style, isEdit = true }) => {
           ></Modal>
           {!state.showListProfile ? (
             <div
-              style={{ zIndex: "1002" }}
-              onClick={onClickShow}
-              className="hamburger-box"
             >
-              <img
-                src={Icons.icon_right_menu}
-                alt="icon-right-menu"
-                width={35}
-              />
             </div>
           ) : (
             <div
-              onClick={onClickShow}
-              className="hamburger-box is-active"
-              style={{ zIndex: 1015 }}
             >
-              <div className="hamburger-inner"></div>
             </div>
           )}
         </div>

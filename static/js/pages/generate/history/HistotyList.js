@@ -46,77 +46,7 @@ const HistotyList = () => {
       <div className="p-content__wrap">
         <div className="history-menu" style={{ marginBottom: 12 }}>
           <div
-            className={`header-info__acc w-0 js-show-profile ${
-              showProfile ? "is-active" : ""
-            }`}
-            onClick={() => setShowProfile(!showProfile)}
-            style={{ minWidth: "30%" }}
           >
-            <img
-              src={nameTab.icon ? nameTab.icon : Icons.icon_text2img}
-              alt="icon-right-menu"
-            />
-            {nameTab.name}
-            {showProfile && (
-              <div
-                className="header-profile is-active"
-                style={{ minWidth: "300px", right: 0, left: "none" }}
-              >
-                <div
-                  className="header-profile__box"
-                  style={{ zIndex: 10, gap: 20, textAlign: "start" }}
-                >
-                  <div
-                    onClick={() =>
-                      setNameTab({
-                        name: "All",
-                      })
-                    }
-                  >
-                    <Link
-                      to={`/history/all`}
-                      className={tab === `all` ? "is-active" : ""}
-                      style={{ display: "flex", textAlign: "start", gap: 10 }}
-                    >
-                      <img src={Icons.icon_text2img} alt="icon-right-menu" />
-                      All
-                    </Link>
-                  </div>
-                  {Object.keys(APP_ROUTE)
-                    .filter((e) => e !== "FLUX_GEN")
-                    .map((k, i) => {
-                      let active = tab === APP_ROUTE[k].routeName;
-                      return (
-                        <div
-                          key={k}
-                          onClick={() =>
-                            setNameTab({
-                              name: APP_ROUTE[k].name,
-                              icon: APP_ROUTE[k].icon,
-                            })
-                          }
-                        >
-                          <Link
-                            style={{
-                              display: "flex",
-                              textAlign: "start",
-                              gap: 10,
-                            }}
-                            to={`/history/${APP_ROUTE[k].routeName}`}
-                            className={active ? "is-active" : ""}
-                          >
-                            <img
-                              src={APP_ROUTE[k].icon}
-                              alt="icon-right-menu"
-                            />
-                            {APP_ROUTE[k].name}
-                          </Link>
-                        </div>
-                      );
-                    })}
-                </div>
-              </div>
-            )}
           </div>
 
           {ids.length ? (
