@@ -1,0 +1,48 @@
+var _path, _path2, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconMess(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M12 0C5.241 0 0 4.95286 0 11.6397C0 15.1376 1.434 18.1615 3.768 20.2494C3.963 20.4234 4.083 20.6694 4.089 20.9334L4.155 23.0694C4.15981 23.2265 4.20314 23.3801 4.2812 23.5166C4.35926 23.6531 4.46965 23.7683 4.60267 23.8521C4.73569 23.936 4.88726 23.9859 5.04408 23.9974C5.20089 24.009 5.35814 23.9818 5.502 23.9183L7.884 22.8684C8.085 22.7784 8.313 22.7634 8.526 22.8204C9.621 23.1204 10.785 23.2824 12 23.2824C18.759 23.2824 24 18.3295 24 11.6427C24 4.95586 18.759 0 12 0Z",
+    fill: "url(#paint0_radial_152_669)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M4.79413 15.0446L8.31913 9.45275C8.45174 9.24222 8.62655 9.06147 8.83254 8.92191C9.03853 8.78234 9.27121 8.687 9.5159 8.6419C9.7606 8.59679 10.012 8.60291 10.2542 8.65986C10.4964 8.71681 10.7242 8.82335 10.9231 8.97276L13.7281 11.0757C13.8534 11.1695 14.0057 11.2199 14.1621 11.2193C14.3186 11.2188 14.4706 11.1673 14.5951 11.0727L18.3811 8.19878C18.8851 7.8148 19.5451 8.42078 19.2091 8.95776L15.6811 14.5466C15.5485 14.7571 15.3737 14.9379 15.1677 15.0775C14.9617 15.217 14.7291 15.3124 14.4844 15.3575C14.2397 15.4026 13.9883 15.3965 13.7461 15.3395C13.5039 15.2826 13.2761 15.176 13.0771 15.0266L10.2721 12.9237C10.1469 12.8299 9.99456 12.7795 9.83813 12.78C9.6817 12.7806 9.52971 12.832 9.40513 12.9267L5.61913 15.8006C5.11513 16.1846 4.45513 15.5816 4.79413 15.0446Z",
+    fill: "white"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("radialGradient", {
+    id: "paint0_radial_152_669",
+    cx: 0,
+    cy: 0,
+    r: 1,
+    gradientUnits: "userSpaceOnUse",
+    gradientTransform: "translate(4.02 23.9993) scale(26.4 26.3993)"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#0099FF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.6,
+    stopColor: "#A033FF"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.9,
+    stopColor: "#FF5280"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FF7061"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconMess);
+export default __webpack_public_path__ + "static/media/icon_mess.daa6fadca4df9d35241556c350b36f1e.svg";
+export { ForwardRef as ReactComponent };

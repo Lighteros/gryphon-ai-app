@@ -1,0 +1,30 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconTerm(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M10.3755 2.72195L5.3777 4.94321C3.93208 5.5857 2.97809 7.02455 3.07008 8.60384C3.42971 14.7781 5.23776 17.4962 9.93588 20.6769C11.1805 21.5195 12.821 21.5215 14.0647 20.6776C18.7773 17.4796 20.5206 14.723 20.9119 8.62522C21.0139 7.03549 20.0583 5.58138 18.6026 4.9344L13.6246 2.72195C12.5904 2.26228 11.4098 2.26228 10.3755 2.72195Z",
+    stroke: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M15.0001 11.9999C15.0001 13.6568 13.6569 14.9999 12.0001 14.9999C10.3432 14.9999 9.00008 13.6568 9.00008 11.9999C9.00008 10.3431 10.3432 8.99993 12.0001 8.99993C13.6569 8.99993 15.0001 10.3431 15.0001 11.9999Z",
+    stroke: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconTerm);
+export default __webpack_public_path__ + "static/media/icon_term.638f796834df4b88edf4842a09ae4db5.svg";
+export { ForwardRef as ReactComponent };

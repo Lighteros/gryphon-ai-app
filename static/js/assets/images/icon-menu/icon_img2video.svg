@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconImg2Video(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M21 16V8C21.0047 7.93675 21.0047 7.87325 21 7.81C21.0048 7.7501 21.0048 7.6899 21 7.63C20.9594 7.53917 20.9055 7.45491 20.84 7.38C20.8211 7.35479 20.8044 7.32803 20.79 7.3L20.63 7.2C20.5807 7.15773 20.5271 7.12086 20.47 7.09H20.38C20.261 7.03373 20.1316 7.00307 20 7C19.9401 6.99459 19.8799 6.99459 19.82 7C19.7568 6.99442 19.6932 6.99442 19.63 7L16 8.52V8C16 7.20435 15.6839 6.44129 15.1213 5.87868C14.5587 5.31607 13.7956 5 13 5H5C4.20435 5 3.44129 5.31607 2.87868 5.87868C2.31607 6.44129 2 7.20435 2 8V16C2 16.7957 2.31607 17.5587 2.87868 18.1213C3.44129 18.6839 4.20435 19 5 19H13C13.7956 19 14.5587 18.6839 15.1213 18.1213C15.6839 17.5587 16 16.7957 16 16V15.48L19.61 16.92H19.79C19.8575 16.9527 19.9278 16.9795 20 17C20.0992 16.9955 20.1971 16.9752 20.29 16.94H20.38C20.4371 16.9091 20.4907 16.8723 20.54 16.83L20.7 16.73C20.7144 16.702 20.7311 16.6752 20.75 16.65C20.8155 16.5751 20.8694 16.4908 20.91 16.4C20.9148 16.3401 20.9148 16.2799 20.91 16.22C20.9467 16.1496 20.9768 16.0759 21 16ZM13 17H5C4.73478 17 4.48043 16.8946 4.29289 16.7071C4.10536 16.5196 4 16.2652 4 16V8C4 7.73478 4.10536 7.48043 4.29289 7.29289C4.48043 7.10536 4.73478 7 5 7H13C13.2652 7 13.5196 7.10536 13.7071 7.29289C13.8946 7.48043 14 7.73478 14 8V10V14V16C14 16.2652 13.8946 16.5196 13.7071 16.7071C13.5196 16.8946 13.2652 17 13 17ZM16 10.68L19 9.48V14.48L16 13.28V10.68Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconImg2Video);
+export default __webpack_public_path__ + "static/media/icon_img2video.2003d17792ac67462a340bfe6284a647.svg";
+export { ForwardRef as ReactComponent };

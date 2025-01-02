@@ -1,0 +1,37 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconFriendRef(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M10.4286 7.83333C10.4286 9.38496 9.13078 10.6667 7.5 10.6667V11.6667C9.65632 11.6667 11.4286 9.96361 11.4286 7.83333H10.4286ZM7.5 10.6667C5.86922 10.6667 4.57143 9.38496 4.57143 7.83333H3.57143C3.57143 9.96361 5.34368 11.6667 7.5 11.6667V10.6667ZM4.57143 7.83333C4.57143 6.28171 5.86922 5 7.5 5V4C5.34368 4 3.57143 5.70306 3.57143 7.83333H4.57143ZM7.5 5C9.13078 5 10.4286 6.28171 10.4286 7.83333H11.4286C11.4286 5.70306 9.65632 4 7.5 4V5ZM13 16.5833C13 17.0899 12.5621 17.6914 11.524 18.196C10.5201 18.6841 9.09798 19 7.5 19V20C9.21573 20 10.7936 19.663 11.9612 19.0954C13.0948 18.5444 14 17.6876 14 16.5833H13ZM7.5 19C5.90202 19 4.47993 18.6841 3.47596 18.196C2.43792 17.6914 2 17.0899 2 16.5833H1C1 17.6876 1.90523 18.5444 3.03876 19.0954C4.20636 19.663 5.78427 20 7.5 20V19ZM2 16.5833C2 16.0768 2.43792 15.4752 3.47596 14.9706C4.47993 14.4826 5.90202 14.1667 7.5 14.1667V13.1667C5.78427 13.1667 4.20636 13.5037 3.03876 14.0713C1.90523 14.6223 1 15.4791 1 16.5833H2ZM7.5 14.1667C9.09798 14.1667 10.5201 14.4826 11.524 14.9706C12.5621 15.4752 13 16.0768 13 16.5833H14C14 15.4791 13.0948 14.6223 11.9612 14.0713C10.7936 13.5037 9.21573 13.1667 7.5 13.1667V14.1667Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M14.5 8.25H22",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M18.25 4.5V12",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconFriendRef);
+export default __webpack_public_path__ + "static/media/icon_friend_ref.ff89cba1aece30ca2f50a3e8bdd6d08c.svg";
+export { ForwardRef as ReactComponent };

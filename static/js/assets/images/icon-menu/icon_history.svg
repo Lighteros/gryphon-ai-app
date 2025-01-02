@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconHistory(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 19,
+    height: 18,
+    viewBox: "0 0 19 18",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M14.2499 1.5H6.33325C5.70336 1.5 5.09927 1.73705 4.65387 2.15901C4.20847 2.58097 3.95825 3.15326 3.95825 3.75V15.4425C3.96325 15.6413 4.00992 15.8371 4.09554 16.0187C4.18116 16.2002 4.30403 16.3638 4.457 16.5C4.75224 16.7704 5.1468 16.9215 5.55742 16.9215C5.96804 16.9215 6.3626 16.7704 6.65784 16.5L10.1966 13.155L10.2916 13.1175L10.3866 13.155L13.9253 16.5C14.1467 16.7085 14.4283 16.8504 14.7345 16.9077C15.0408 16.9651 15.3581 16.9354 15.6466 16.8224C15.9351 16.7094 16.1819 16.5181 16.356 16.2726C16.53 16.027 16.6236 15.7383 16.6249 15.4425V3.75C16.6249 3.15326 16.3747 2.58097 15.9293 2.15901C15.4839 1.73705 14.8798 1.5 14.2499 1.5ZM15.0416 15.4425L11.5108 12.09C11.1852 11.7877 10.7475 11.6183 10.2916 11.6183C9.8357 11.6183 9.39799 11.7877 9.07242 12.09L5.54159 15.435V6H15.0416V15.4425ZM15.0416 4.5H5.54159V3.75C5.54159 3.55109 5.62499 3.36032 5.77346 3.21967C5.92193 3.07902 6.12329 3 6.33325 3H14.2499C14.4599 3 14.6612 3.07902 14.8097 3.21967C14.9582 3.36032 15.0416 3.55109 15.0416 3.75V4.5Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconHistory);
+export default __webpack_public_path__ + "static/media/icon_history.bc1487aabfb49d05cc396a754e2064a3.svg";
+export { ForwardRef as ReactComponent };

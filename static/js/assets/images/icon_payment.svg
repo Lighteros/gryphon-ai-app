@@ -1,0 +1,52 @@
+var _path, _path2, _path3, _path4, _path5, _path6;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconPayment(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M21.75 6H2.25C1.83579 6 1.5 6.33579 1.5 6.75V17.25C1.5 17.6642 1.83579 18 2.25 18H21.75C22.1642 18 22.5 17.6642 22.5 17.25V6.75C22.5 6.33579 22.1642 6 21.75 6Z",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M12 15C13.6569 15 15 13.6569 15 12C15 10.3431 13.6569 9 12 9C10.3431 9 9 10.3431 9 12C9 13.6569 10.3431 15 12 15Z",
+    fill: "white"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 6L22.5 11.25",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M16.5 18L22.5 12.75",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M7.5 6L1.5 11.25",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    d: "M7.5 18L1.5 12.75",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconPayment);
+export default __webpack_public_path__ + "static/media/icon_payment.145e296e7c7c69eff1116b7df5af4741.svg";
+export { ForwardRef as ReactComponent };

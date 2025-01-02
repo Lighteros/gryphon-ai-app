@@ -1,0 +1,76 @@
+var _g;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIcon404(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 128,
+    height: 106,
+    viewBox: "0 0 128 106",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _g || (_g = /*#__PURE__*/React.createElement("g", {
+    id: "Exp-2.-F"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Vector",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M115.906 11.5791H15.125C11.2414 11.5791 8.09375 14.7268 8.09375 18.6104V32.6729H115.906V11.5791Z",
+    fill: "#A5BBD7"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_2",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M115.906 7.625C115.906 3.74141 112.759 0.59375 108.875 0.59375C98.9633 0.59375 81.0945 0.59375 72.1273 0.59375C68.7641 0.59375 65.6562 2.39609 63.9875 5.3164C61.2195 10.1633 57.3125 17 57.3125 17H115.906V7.625Z",
+    fill: "#A5BBD7"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_3",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8.09375 18.167H115.906V22.5334H8.09375V18.167Z",
+    fill: "#8DA3BE"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_4",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M123.8 31.6977C124.173 29.0117 123.364 26.2953 121.585 24.2516C119.804 22.2055 117.226 21.0312 114.514 21.0312C90.6173 21.0312 33.3829 21.0312 9.48604 21.0312C6.77432 21.0312 4.1962 22.2055 2.41495 24.2516C0.636041 26.2953 -0.172553 29.0117 0.200103 31.6977C2.57667 48.807 7.18917 82.0133 9.31495 97.3227C9.95948 101.956 13.9204 105.406 18.6009 105.406H105.399C110.08 105.406 114.041 101.956 114.685 97.3227C116.811 82.0133 121.424 48.807 123.8 31.6977Z",
+    fill: "#CADCF0"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_5",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0.987603 37.3695C1.16338 35.4172 1.9462 33.5516 3.25635 32.0469C5.03526 30.0031 7.61338 28.8289 10.3251 28.8289H113.675C116.387 28.8289 118.965 30.0031 120.744 32.0469C122.054 33.5516 122.837 35.4172 123.013 37.3695L123.8 31.6977C124.173 29.0117 123.364 26.2953 121.585 24.2516C119.804 22.2055 117.226 21.0312 114.514 21.0312C90.6173 21.0312 33.3829 21.0312 9.48604 21.0312C6.77432 21.0312 4.1962 22.2055 2.41495 24.2516C0.636041 26.2953 -0.172553 29.0117 0.200103 31.6977L0.987603 37.3695Z",
+    fill: "#E9F3FC"
+  }), /*#__PURE__*/React.createElement("g", {
+    id: "Group"
+  }, /*#__PURE__*/React.createElement("path", {
+    id: "Vector_6",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M51.4556 82.0293C51.4556 79.4418 49.3579 77.3418 46.7681 77.3418C41.5673 77.3418 33.2212 77.3418 28.0181 77.3418C25.4306 77.3418 23.3306 79.4418 23.3306 82.0293V86.7168C23.3306 89.3066 25.4306 91.4043 28.0181 91.4043H46.7681C49.3579 91.4043 51.4556 89.3066 51.4556 86.7168C51.4556 85.2098 51.4556 83.5387 51.4556 82.0293Z",
+    fill: "#347BFA"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_7",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M86.6094 38C73.0273 38 62 49.0273 62 62.6094C62 76.1914 73.0273 87.2187 86.6094 87.2187C100.191 87.2187 111.219 76.1914 111.219 62.6094C111.219 49.0273 100.191 38 86.6094 38ZM86.6094 45.0312C96.3102 45.0312 104.188 52.9086 104.188 62.6094C104.188 72.3101 96.3102 80.1875 86.6094 80.1875C76.9086 80.1875 69.0312 72.3101 69.0312 62.6094C69.0312 52.9086 76.9086 45.0312 86.6094 45.0312Z",
+    fill: "#347BFA"
+  }), /*#__PURE__*/React.createElement("path", {
+    id: "Vector_8",
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M99.4275 79.6039L121.29 101.466C122.663 102.84 124.89 102.84 126.263 101.466C127.635 100.095 127.635 97.8664 126.263 96.4953L104.401 74.6328C103.027 73.2617 100.801 73.2617 99.4275 74.6328C98.0564 76.0039 98.0564 78.2328 99.4275 79.6039Z",
+    fill: "#347BFA"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIcon404);
+export default __webpack_public_path__ + "static/media/icon_404.6ddd5a17bf00baa61a4ccb7be8397b05.svg";
+export { ForwardRef as ReactComponent };

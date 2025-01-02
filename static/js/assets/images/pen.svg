@@ -1,0 +1,98 @@
+var _rect, _rect2, _path, _path2, _line, _path3, _path4, _path5, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgPen(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 32,
+    height: 32,
+    rx: 4,
+    fill: "#D9D9D9",
+    fillOpacity: 0.08
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.25,
+    y: 0.25,
+    width: 31.5,
+    height: 31.5,
+    rx: 3.75,
+    stroke: "white",
+    strokeOpacity: 0.16,
+    strokeWidth: 0.5
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M9.59157 20.2168L20.4447 8.77695C20.6225 8.58948 20.9187 8.58168 21.1062 8.75954L24.5141 11.9927C24.7016 12.1705 24.7094 12.4667 24.5315 12.6542L13.6784 24.094C13.593 24.184 13.4753 24.2364 13.3513 24.2397L10.0307 24.3271C9.77239 24.3339 9.55747 24.13 9.55067 23.8717L9.46327 20.5511C9.46001 20.4271 9.50616 20.3068 9.59157 20.2168Z",
+    stroke: "#FF4117",
+    strokeWidth: 0.938896
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M11.117 15.3894C10.9392 15.5769 10.9469 15.873 11.1344 16.0509C11.3219 16.2287 11.6181 16.2209 11.7959 16.0335L11.117 15.3894ZM18.8134 10.497L17.8861 9.61542L17.2413 10.2937L18.1687 11.1752L18.8134 10.497ZM16.5624 9.64959L11.117 15.3894L11.7959 16.0335L17.2413 10.2937L16.5624 9.64959ZM17.8861 9.61542C17.5112 9.25907 16.9184 9.27437 16.5624 9.64959L17.2413 10.2937L17.2413 10.2937L17.8861 9.61542Z",
+    fill: "#FF4117"
+  })), _line || (_line = /*#__PURE__*/React.createElement("line", {
+    x1: 15.9148,
+    y1: 13.5512,
+    x2: 19.9881,
+    y2: 17.4157,
+    stroke: "#FF4117",
+    strokeWidth: 0.935811
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.4745 7.22561C13.6301 7.0628 13.6242 6.80471 13.4614 6.64911C13.2987 6.49351 13.0405 6.49941 12.8849 6.66217C12.3669 7.20425 11.9 7.41182 11.4808 7.41558C11.0571 7.41938 10.587 7.21593 10.0637 6.73339C9.89893 6.58149 9.64249 6.59097 9.48942 6.75462C9.33635 6.91828 9.34401 7.17478 9.50658 7.32901C10.0801 7.87316 10.2771 8.34789 10.2718 8.761C10.2664 9.18332 10.049 9.64235 9.57818 10.1476C9.42785 10.309 9.43301 10.5606 9.58984 10.7156C9.74666 10.8707 9.99832 10.8729 10.1579 10.7208C10.6868 10.2165 11.1647 9.99469 11.5947 9.97921C12.0176 9.96399 12.4792 10.1455 12.9872 10.6311C13.149 10.7858 13.4052 10.7811 13.5612 10.6207C13.7173 10.4603 13.7149 10.2041 13.5559 10.0466C13.0079 9.50395 12.7994 9.02511 12.7963 8.60493C12.7932 8.18347 12.9961 7.72602 13.4745 7.22561Z",
+    fill: "url(#paint0_linear_1035_764)"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M19.5562 24.5104C19.6858 24.3748 19.6809 24.1597 19.5453 24.03C19.4096 23.9004 19.1945 23.9053 19.0648 24.0409C18.6331 24.4926 18.244 24.6656 17.8948 24.6687C17.5416 24.6719 17.1499 24.5024 16.7138 24.1003C16.5765 23.9737 16.3628 23.9816 16.2353 24.1179C16.1077 24.2543 16.1141 24.4681 16.2496 24.5966C16.7275 25.0501 16.8917 25.4457 16.8873 25.7899C16.8828 26.1419 16.7016 26.5244 16.3092 26.9455C16.1839 27.0799 16.1882 27.2896 16.3189 27.4188C16.4496 27.548 16.6593 27.5499 16.7923 27.4231C17.2331 27.0028 17.6313 26.818 17.9896 26.8051C18.3421 26.7924 18.7268 26.9437 19.1501 27.3483C19.2849 27.4772 19.4984 27.4734 19.6284 27.3397C19.7585 27.206 19.7565 26.9925 19.624 26.8612C19.1673 26.4091 18.9935 26.01 18.991 25.6599C18.9884 25.3087 19.1574 24.9274 19.5562 24.5104Z",
+    fill: "url(#paint1_linear_1035_764)"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M17.4039 5.60484C17.5076 5.4963 17.5037 5.32423 17.3952 5.2205C17.2867 5.11677 17.1146 5.1207 17.0108 5.22921C16.6655 5.59059 16.3542 5.72897 16.0748 5.73148C15.7923 5.73401 15.4789 5.59838 15.13 5.27669C15.0202 5.17542 14.8492 5.18174 14.7472 5.29084C14.6452 5.39995 14.6503 5.57095 14.7586 5.67377C15.141 6.03653 15.2723 6.35302 15.2688 6.62843C15.2652 6.90997 15.1202 7.216 14.8064 7.55285C14.7062 7.6604 14.7096 7.82815 14.8141 7.9315C14.9187 8.03486 15.0865 8.03638 15.1929 7.93493C15.5454 7.59876 15.864 7.45089 16.1507 7.44057C16.4326 7.43042 16.7404 7.55145 17.079 7.87516C17.1869 7.97827 17.3577 7.97517 17.4617 7.86823C17.5658 7.76128 17.5642 7.59046 17.4582 7.48548C17.0929 7.12373 16.9538 6.8045 16.9518 6.52438C16.9497 6.24341 17.085 5.93844 17.4039 5.60484Z",
+    fill: "url(#paint2_linear_1035_764)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_1035_764",
+    x1: 13.4603,
+    y1: 6.64806,
+    x2: 9.59586,
+    y2: 10.7215,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FF4117"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FFC90B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint1_linear_1035_764",
+    x1: 19.5444,
+    y1: 24.0291,
+    x2: 16.324,
+    y2: 27.4236,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FF4117"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FFC90B"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint2_linear_1035_764",
+    x1: 17.3945,
+    y1: 5.2198,
+    x2: 14.8182,
+    y2: 7.9354,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FF4117"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#FFC90B"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgPen);
+export default __webpack_public_path__ + "static/media/pen.d1b956562900defed2b7d9e6ac8f4272.svg";
+export { ForwardRef as ReactComponent };

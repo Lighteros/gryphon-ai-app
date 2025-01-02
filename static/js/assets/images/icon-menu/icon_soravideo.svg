@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconSoravideo(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 19,
+    height: 16,
+    viewBox: "0 0 19 16",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.15 0H2.85C2.09413 0 1.36922 0.300267 0.834746 0.834746C0.300267 1.36922 0 2.09413 0 2.85V12.35C0 13.1059 0.300267 13.8308 0.834746 14.3653C1.36922 14.8997 2.09413 15.2 2.85 15.2H16.15C16.9059 15.2 17.6308 14.8997 18.1653 14.3653C18.6997 13.8308 19 13.1059 19 12.35V2.85C19 2.09413 18.6997 1.36922 18.1653 0.834746C17.6308 0.300267 16.9059 0 16.15 0ZM17.1 12.35C17.1 12.602 16.9999 12.8436 16.8218 13.0217C16.6436 13.1999 16.402 13.3 16.15 13.3H2.85C2.59804 13.3 2.35641 13.1999 2.17825 13.0217C2.00009 12.8436 1.9 12.602 1.9 12.35V2.85C1.9 2.59804 2.00009 2.35641 2.17825 2.17825C2.35641 2.00009 2.59804 1.9 2.85 1.9H16.15C16.402 1.9 16.6436 2.00009 16.8218 2.17825C16.9999 2.35641 17.1 2.59804 17.1 2.85V12.35ZM12.939 5.9565L9.2055 3.8C8.91681 3.63332 8.58934 3.54553 8.25599 3.54545C7.92263 3.54536 7.59512 3.63298 7.30634 3.79951C7.01756 3.96604 6.77768 4.20562 6.61078 4.49418C6.44388 4.78275 6.35584 5.11014 6.3555 5.4435V9.7565C6.35525 10.0118 6.40643 10.2644 6.506 10.4995C6.60556 10.7345 6.75147 10.9471 6.935 11.1245C7.23221 11.4107 7.61452 11.5924 8.02415 11.6422C8.43378 11.6919 8.84846 11.6069 9.2055 11.4L12.939 9.2435C13.2269 9.07648 13.4659 8.83675 13.6321 8.54831C13.7982 8.25988 13.8856 7.93286 13.8856 7.6C13.8856 7.26714 13.7982 6.94012 13.6321 6.65168C13.4659 6.36325 13.2269 6.12352 12.939 5.9565ZM11.989 7.6L8.2555 9.7565V5.4435L11.989 7.6Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconSoravideo);
+export default __webpack_public_path__ + "static/media/icon_soravideo.79307fbddceeb5c8e6ae2f3de5d83a39.svg";
+export { ForwardRef as ReactComponent };

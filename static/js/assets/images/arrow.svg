@@ -1,0 +1,27 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgArrow(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 52,
+    height: 12,
+    viewBox: "0 0 42 8",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M1 3.5C0.723858 3.5 0.5 3.72386 0.5 4C0.5 4.27614 0.723858 4.5 1 4.5L1 3.5ZM41.3536 4.35356C41.5488 4.15829 41.5488 3.84171 41.3536 3.64645L38.1716 0.464469C37.9763 0.269207 37.6597 0.269207 37.4645 0.464469C37.2692 0.659731 37.2692 0.976314 37.4645 1.17158L40.2929 4L37.4645 6.82843C37.2692 7.02369 37.2692 7.34027 37.4645 7.53554C37.6597 7.7308 37.9763 7.7308 38.1716 7.53554L41.3536 4.35356ZM1 4.5L41 4.5L41 3.5L1 3.5L1 4.5Z",
+    fill: "white"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgArrow);
+export default __webpack_public_path__ + "static/media/arrow.3f69af42002145644a51ca569a2171b9.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,44 @@
+var _rect, _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconTele(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 32,
+    height: 32,
+    rx: 16,
+    fill: "white",
+    fillOpacity: 0.1
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_25_821)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M24 16C24 20.4183 20.4183 24 16 24C11.5817 24 8 20.4183 8 16C8 11.5817 11.5817 8 16 8C20.4183 8 24 11.5817 24 16ZM16.2867 13.906C15.5086 14.2296 13.9534 14.8995 11.6213 15.9155C11.2426 16.0661 11.0442 16.2135 11.0261 16.3575C10.9956 16.601 11.3005 16.6969 11.7156 16.8274C11.7721 16.8452 11.8306 16.8636 11.8906 16.8831C12.2991 17.0158 12.8486 17.1712 13.1342 17.1774C13.3933 17.183 13.6825 17.0761 14.0018 16.8569C16.1808 15.386 17.3056 14.6425 17.3762 14.6265C17.426 14.6152 17.4951 14.601 17.5418 14.6426C17.5886 14.6841 17.584 14.7629 17.5791 14.784C17.5489 14.9128 16.3521 16.0254 15.7327 16.6012C15.5397 16.7807 15.4027 16.908 15.3747 16.9371C15.312 17.0022 15.2481 17.0638 15.1867 17.1231C14.8072 17.4889 14.5226 17.7632 15.2024 18.2112C15.5291 18.4265 15.7905 18.6045 16.0513 18.7821C16.3361 18.9761 16.6202 19.1695 16.9877 19.4104C17.0814 19.4718 17.1708 19.5356 17.2579 19.5977C17.5894 19.834 17.8872 20.0463 18.2551 20.0124C18.4688 19.9927 18.6896 19.7917 18.8018 19.1922C19.0668 17.7754 19.5878 14.7056 19.7081 13.4406C19.7187 13.3298 19.7054 13.188 19.6948 13.1257C19.6841 13.0635 19.6618 12.9747 19.5809 12.9091C19.4851 12.8313 19.3371 12.8149 19.2709 12.8161C18.97 12.8214 18.5084 12.9819 16.2867 13.906Z",
+    fill: "white"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_25_821"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 16,
+    height: 16,
+    fill: "white",
+    transform: "translate(8 8)"
+  })))));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconTele);
+export default __webpack_public_path__ + "static/media/icon_tele.14ff1a558a8d4ed3c8f709f2da492ae6.svg";
+export { ForwardRef as ReactComponent };

@@ -1,0 +1,33 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+function SvgIconUser(_ref, svgRef) {
+  let {
+    title,
+    titleId,
+    ...props
+  } = _ref;
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    ref: svgRef,
+    "aria-labelledby": titleId
+  }, props), title ? /*#__PURE__*/React.createElement("title", {
+    id: titleId
+  }, title) : null, _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M10 12.5C12.7614 12.5 15 10.2614 15 7.5C15 4.73858 12.7614 2.5 10 2.5C7.23858 2.5 5 4.73858 5 7.5C5 10.2614 7.23858 12.5 10 12.5Z",
+    stroke: "white",
+    strokeMiterlimit: 10
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M2.42188 16.875C3.18979 15.5446 4.2944 14.4398 5.62465 13.6717C6.9549 12.9036 8.46392 12.4993 10 12.4993C11.5361 12.4993 13.0451 12.9036 14.3753 13.6717C15.7056 14.4398 16.8102 15.5446 17.5781 16.875",
+    stroke: "white",
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+}
+const ForwardRef = /*#__PURE__*/React.forwardRef(SvgIconUser);
+export default __webpack_public_path__ + "static/media/icon_user.f6e350134ca5f756519b9f42681687ab.svg";
+export { ForwardRef as ReactComponent };
